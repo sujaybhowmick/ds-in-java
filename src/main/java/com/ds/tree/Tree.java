@@ -8,6 +8,8 @@ public interface Tree<T> extends Comparable<T>{
 
     T get();
 
+    void set(T data);
+
     Tree<T> getLeft();
 
     Tree<T> getRight();

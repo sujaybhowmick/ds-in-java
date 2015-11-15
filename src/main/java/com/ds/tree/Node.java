@@ -21,6 +21,10 @@ public class Node<T extends Comparable<T>> implements Tree<T> {
         return this.data;
     }
 
+    public void set(T data) {
+        this.data = data;
+    }
+
     public Tree<T> getLeft() {
         return this.left;
     }

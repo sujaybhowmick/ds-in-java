@@ -36,5 +36,10 @@ public class BinaryTreeTest {
         List<Student> sortedList = binaryTree.sort();
         assertEquals(sortedList.get(0).toString(), "Annette, Bhowmick");
         assertEquals(sortedList.get(7).toString(), "Sujay, Bhowmick");
+
+        System.out.println(binaryTree.getHeight());
+        System.out.println(binaryTree.findMax().get());
+        System.out.println(binaryTree.delete(student7));
+        sortedList = binaryTree.sort();
     }
 }
