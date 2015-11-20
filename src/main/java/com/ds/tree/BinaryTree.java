@@ -88,7 +88,6 @@ public class BinaryTree<T extends Comparable<T>> {
         }else{
             return findMax(root.getRight());
         }
-
     }
 
     private long getHeight(Tree<T> node){
